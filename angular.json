@@ -71,9 +71,12 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Angular-HelloWorld:build"
+            "browserTarget": "Angular-HelloWorld:build "
           }
-        },
+        },      
+         "cli": {
+         "analytics": false
+            },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
